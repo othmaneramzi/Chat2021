@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:gravity="center_horizontal|right"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/choixConversation_titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/choixConversation"
+        android:textColor="@color/blanc"
+        android:textSize="12pt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/choixConversation_conv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanc" />
+
+
+</LinearLayout>
